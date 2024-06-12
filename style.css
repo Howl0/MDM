@@ -157,6 +157,14 @@ body {
   margin-left: 20px;
 }
 
+/* Portfolio Images */
+.project-images img {
+  width: 200px; /* Fixed width */
+  height: 150px; /* Fixed height */
+  object-fit: cover;
+  margin: 10px;
+}
+
 /* Services Section */
 #services {
   background: #f4f4f4;
