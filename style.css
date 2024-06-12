@@ -89,28 +89,31 @@ body {
 #about {
   background: #f4f4f4;
   padding: 40px 0;
+  text-align: center;
 }
 
 #about #pic {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 
 #about .intro-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 600px;
+  margin: auto;
 }
 
 #about img {
   max-width: 150px;
+  border-radius: 50%;
   margin-bottom: 20px;
 }
 
 #about #intro {
-  max-width: 600px;
+  text-align: center;
 }
 
 /* Portfolio Section */
